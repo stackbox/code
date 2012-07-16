@@ -1,0 +1,12 @@
+<html>
+<head>
+<script src="clienthint2.js"></script>
+</head>
+<body>
+  <form>
+FirstName:<input type="text" id="txt1" onkeyup="showHint(this.value)">
+  </form>
+  <p>Suggessions: <span id="txtHint"></span></p>
+  </body>
+</html>
+  

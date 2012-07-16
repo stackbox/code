@@ -1,0 +1,12 @@
+<?php
+$con = mysql_connect(SAE_MYSQL_HOST_M.':'.SAE_MYSQL_PORT,SAE_MYSQL_USER,SAE_MYSQL_PASS); 
+mysql_select_db("app_ajax121", $con); 
+$sql = "select * from Persons" 
+$result = mysql_query($sql,$con); 
+while($row = mysql_fetch_array($result))
+  {
+  echo $row['FirstName'] . " " . $row['LastName'];
+  echo "<br />";
+  }
+  mysql_close($con);
+?>

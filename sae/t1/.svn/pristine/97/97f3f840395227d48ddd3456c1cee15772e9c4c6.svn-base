@@ -1,0 +1,10 @@
+import web
+
+urls=('/','Home')
+
+class Home:
+	def GET(self):
+        	web.header('Content-text','text/html')
+                return 'Hello wolrld'
+                
+app=web.application(urls,globals())

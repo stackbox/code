@@ -1,0 +1,5 @@
+import sae
+import test
+
+app = web.application(urls,globals())
+application = sae.create_wsgi_app(app)

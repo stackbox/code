@@ -1,0 +1,41 @@
+<?php
+$q=$_GET["q"];
+
+$con = mysql_connect(SAE_MYSQL_HOST_M.':'.SAE_MYSQL_PORT,SAE_MYSQL_USER,SAE_MYSQL_PASS);
+if (!$con)
+ {
+ die('Could not connect: ' . mysql_error());
+ }
+
+$db_select=mysql_select_db("app_ajax121",$con);
+
+$sql="SELECT * FROM user WHERE id = '".$q."'";
+
+$result = mysql_query($sql);
+if(!$result){
+	die("Invalid query");
+}
+
+echo "<table border='1'>
+<tr>
+<th>Firstname</th>
+<th>Lastname</th>
+<th>Age</th>
+<th>Hometown</th>
+<th>Job</th>
+</tr>";
+
+while($row = mysql_fetch_array($result))
+ {
+ echo "<tr>";
+ echo "<td>" . $row['FirstName'] . "</td>";
+ echo "<td>" . $row['LastName'] . "</td>";
+ echo "<td>" . $row['Age'] . "</td>";
+ echo "<td>" . $row['Hometown'] . "</td>";
+ echo "<td>" . $row['Job'] . "</td>";
+ echo "</tr>";
+ }
+echo "</table>";
+
+mysql_close($con);
+?>

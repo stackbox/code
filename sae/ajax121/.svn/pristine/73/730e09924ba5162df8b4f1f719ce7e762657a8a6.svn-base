@@ -1,0 +1,7 @@
+body { font-family:Verdana; font-size:14px; margin:0;}
+
+#container {margin:0 auto; width:100%;}
+#sidebar { float:left; width:250px; height:600px; background:#9c6;}
+#content { margin-left:205px !important; margin-left:202px; height:600px; background:#ffa;}
+#content p{text-indent:2em;}
+#content h3{text-indent:2em;}

@@ -1,0 +1,72 @@
+/* style.css */
+
+body {
+	font-family: verdana, arial, helvetica;
+	font-size: 11px;
+	color: #000000;
+}
+
+.formclass {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	visibility: hidden;
+	height: 0px;
+	width: 0px;
+	background: #A2BAFA;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+}
+
+.autocomp {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	visibility: hidden;
+	width: 0px;
+}
+
+.taskboxclass {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	visibility: hidden;
+	width: 0px;
+}
+
+.calendarover {
+	text-align: center;
+	background: #CAD7F9;
+	width: 15px;
+}
+
+.calendaroff {
+	text-align: center;
+	background: #A2BAFA;
+	width: 15px;
+}
+
+.calendartodayover {
+	text-align: center;
+	background: #FECE6E;
+	width: 15px;
+}
+
+.calendartodayoff {
+	text-align: center;
+	background: #FFBC37;
+	width: 15px;
+}
+
+.taskchecker {
+	width: 150px;
+	background-color: #FFBC37;
+	border-style: solid;
+	border-color: #000000;
+	border-width: 1px;
+}
+
+.tcpadding {
+	padding: 10px;
+}

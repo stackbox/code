@@ -1,0 +1,46 @@
+var xmlHttp
+
+function showHint(str)
+{
+if(str.length==0)
+{
+document.getElementById("txtHint").innerHTML=""
+return
+}
+xmlHttp=GetXmlHttpObject()
+if(xmlHttp==null)
+{
+alert("Browser does not support http request")
+return
+}
+var url="gethint.php"
+url=url+"?q="+str
+url=url+"&sid="+Math.random()
+xmlHttp.onreadystatechange=stateChanged
+xmlHttp.open("GET",url,true)
+//alert("success sent"+str)
+xmlHttp.send(null)
+}
+
+function stateChanged()
+{
+if(xmlHttp.readyState==4||xmlHttp.status==200)
+{s
+document.getElementById("txtHint").innerHtml=xmlHttp.responseText
+}
+}
+
+function GetXmlHttpObject()
+{
+var xmlhttp;
+if (window.XMLHttpRequest)
+  {// code for IE7+, Firefox, Chrome, Opera, Safari
+  xmlhttp=new XMLHttpRequest();
+  //alert("success create")
+  }
+else
+  {// code for IE6, IE5
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+  return xmlhttp
+}

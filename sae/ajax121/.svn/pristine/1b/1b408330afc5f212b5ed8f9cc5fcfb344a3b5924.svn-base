@@ -1,0 +1,42 @@
+﻿<html>
+    <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link href="mycss.css" rel="stylesheet" content="text/css" />
+	<script src="getstu.js"></script>
+    </head>
+    <body>
+	<center><h1>学籍管理AJAX程序</h1></center>
+	<hr>
+	<div id="container">
+	    <div id="sidebar">
+		<h3 style="color: blue; margin-left: 30px">
+	    小组成员：<br/>
+	    03091153    李颖嘉<br/>
+	    03091154    吕思佳<br/>
+	    03091155    张天宇<br/>
+	    03091156    朱涛飞<br/>
+		03091136	赵鹏举<br/>
+		03091138	王  雷<br/>
+		03091139	王松涛<br/>
+	    </h3>
+		<br/>
+		<h4>测试数据：</h4>
+		<p>03091110</p>
+		<p>01091120</p>
+		<p>04081234</p>
+		<p>02070987</p>
+	    </div>
+	    <div id="content">
+		<form>
+		<h3>请输入学号:
+		<input type="text" id="txt1" onkeyup="showStu(this.value)">
+		</h3>
+		</form>
+		<h3>学籍信息:</h3><div id="txtHint"><div>
+		
+	    </div>
+	</div>
+
+
+    </body>
+</html>

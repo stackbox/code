@@ -1,0 +1,44 @@
+body {
+	font-family: verdana, arial, helvetica;
+	font-size: 11px;
+	color: #000000;
+}
+
+.formclass {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	visibility: hidden;
+	height: 0px;
+	width: 0px;
+	background: #A2BAFA;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+}
+
+.autocomp {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	visibility: hidden;
+	width: 0px;
+}
+
+.taskboxclass {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	visibility: hidden;
+	width: 0px;
+}
+
+.dborder {
+	width: 100px;
+	padding: 4px;
+	height: 20px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	margin-top: 2px;
+}

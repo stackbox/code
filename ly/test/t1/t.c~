@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+    struct rec {
+	int a;
+	int b;
+	char s[2];
+    } f;
+    int i,j;
+
+    return 0;
+}

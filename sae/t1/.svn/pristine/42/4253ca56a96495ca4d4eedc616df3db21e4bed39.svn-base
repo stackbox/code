@@ -1,0 +1,5 @@
+import sae
+
+import app from test
+
+application = sae.create_wsgi_app(app)
