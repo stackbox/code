@@ -1,0 +1,10 @@
+!SESSION 2012-08-19 18:35:29.175 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.7.0
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.ui 4 4 2012-08-19 18:35:45.141
+!MESSAGE Referenced part does not exist yet: org.eclipse.jdt.ui.PackageExplorer.

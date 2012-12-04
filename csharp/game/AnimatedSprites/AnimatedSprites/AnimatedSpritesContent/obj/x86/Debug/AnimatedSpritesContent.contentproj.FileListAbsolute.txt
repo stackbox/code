@@ -1,0 +1,1 @@
+D:\code\csharp\game\AnimatedSprites\AnimatedSprites\AnimatedSpritesContent\obj\x86\Debug\AnimatedSpritesContent.contentprojResolveAssemblyReference.cache

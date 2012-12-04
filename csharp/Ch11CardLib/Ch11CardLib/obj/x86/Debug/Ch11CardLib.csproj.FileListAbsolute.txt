@@ -1,0 +1,5 @@
+D:\code\csharp\Ch11CardLib\Ch11CardLib\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\code\csharp\Ch11CardLib\Ch11CardLib\bin\Debug\Ch11CardLib.dll
+D:\code\csharp\Ch11CardLib\Ch11CardLib\bin\Debug\Ch11CardLib.pdb
+D:\code\csharp\Ch11CardLib\Ch11CardLib\obj\x86\Debug\Ch11CardLib.dll
+D:\code\csharp\Ch11CardLib\Ch11CardLib\obj\x86\Debug\Ch11CardLib.pdb

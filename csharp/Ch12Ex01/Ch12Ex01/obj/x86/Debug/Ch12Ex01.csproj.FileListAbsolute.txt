@@ -1,0 +1,5 @@
+D:\code\csharp\Ch12Ex01\Ch12Ex01\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\code\csharp\Ch12Ex01\Ch12Ex01\bin\Debug\Ch12Ex01.exe
+D:\code\csharp\Ch12Ex01\Ch12Ex01\bin\Debug\Ch12Ex01.pdb
+D:\code\csharp\Ch12Ex01\Ch12Ex01\obj\x86\Debug\Ch12Ex01.exe
+D:\code\csharp\Ch12Ex01\Ch12Ex01\obj\x86\Debug\Ch12Ex01.pdb

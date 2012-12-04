@@ -1,0 +1,8 @@
+D:\code\csharp\game\AnimatedSprites\AnimatedSprites\AnimatedSprites\bin\x86\Debug\Content\images\threerings.xnb
+D:\code\csharp\game\AnimatedSprites\AnimatedSprites\AnimatedSprites\bin\x86\Debug\AnimatedSprites.exe
+D:\code\csharp\game\AnimatedSprites\AnimatedSprites\AnimatedSprites\bin\x86\Debug\AnimatedSprites.pdb
+D:\code\csharp\game\AnimatedSprites\AnimatedSprites\AnimatedSprites\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\code\csharp\game\AnimatedSprites\AnimatedSprites\AnimatedSprites\obj\x86\Debug\AnimatedSprites.exe
+D:\code\csharp\game\AnimatedSprites\AnimatedSprites\AnimatedSprites\obj\x86\Debug\AnimatedSprites.pdb
+D:\code\csharp\game\AnimatedSprites\AnimatedSprites\AnimatedSprites\bin\x86\Debug\Content\images\skullball.xnb
+D:\code\csharp\game\AnimatedSprites\AnimatedSprites\AnimatedSprites\obj\x86\Debug\AnimatedSprites.csprojResolveAssemblyReference.cache

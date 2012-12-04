@@ -1,0 +1,5 @@
+D:\code\csharp\MyExternalClass\MyExternalClass\bin\Debug\MyExternalClass.dll
+D:\code\csharp\MyExternalClass\MyExternalClass\bin\Debug\MyExternalClass.pdb
+D:\code\csharp\MyExternalClass\MyExternalClass\obj\Debug\ResolveAssemblyReference.cache
+D:\code\csharp\MyExternalClass\MyExternalClass\obj\Debug\MyExternalClass.dll
+D:\code\csharp\MyExternalClass\MyExternalClass\obj\Debug\MyExternalClass.pdb

@@ -1,0 +1,8 @@
+D:\code\csharp\game\Collision\Collision\Collision\bin\x86\Debug\Collision.exe
+D:\code\csharp\game\Collision\Collision\Collision\bin\x86\Debug\Collision.pdb
+D:\code\csharp\game\Collision\Collision\Collision\obj\x86\Debug\Collision.csprojResolveAssemblyReference.cache
+D:\code\csharp\game\Collision\Collision\Collision\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\code\csharp\game\Collision\Collision\Collision\obj\x86\Debug\Collision.exe
+D:\code\csharp\game\Collision\Collision\Collision\obj\x86\Debug\Collision.pdb
+D:\code\csharp\game\Collision\Collision\Collision\bin\x86\Debug\Content\images\logo.xnb
+D:\code\csharp\game\Collision\Collision\Collision\bin\x86\Debug\Content\images\logo_trans.xnb

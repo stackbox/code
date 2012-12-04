@@ -1,0 +1,7 @@
+D:\code\csharp\ConsoleApplication4\ConsoleApplication4\bin\Debug\ConsoleApplication4.exe
+D:\code\csharp\ConsoleApplication4\ConsoleApplication4\bin\Debug\ConsoleApplication4.pdb
+D:\code\csharp\ConsoleApplication4\ConsoleApplication4\bin\Debug\Ch10CardLib.dll
+D:\code\csharp\ConsoleApplication4\ConsoleApplication4\bin\Debug\Ch10CardLib.pdb
+D:\code\csharp\ConsoleApplication4\ConsoleApplication4\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\code\csharp\ConsoleApplication4\ConsoleApplication4\obj\x86\Debug\ConsoleApplication4.exe
+D:\code\csharp\ConsoleApplication4\ConsoleApplication4\obj\x86\Debug\ConsoleApplication4.pdb

@@ -1,0 +1,5 @@
+D:\code\csharp\Ch09ClassLib\Ch09ClassLib\bin\Release\Ch09ClassLib.dll
+D:\code\csharp\Ch09ClassLib\Ch09ClassLib\bin\Release\Ch09ClassLib.pdb
+D:\code\csharp\Ch09ClassLib\Ch09ClassLib\obj\Release\ResolveAssemblyReference.cache
+D:\code\csharp\Ch09ClassLib\Ch09ClassLib\obj\Release\Ch09ClassLib.dll
+D:\code\csharp\Ch09ClassLib\Ch09ClassLib\obj\Release\Ch09ClassLib.pdb
