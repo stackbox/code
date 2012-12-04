@@ -1,0 +1,24 @@
+-- VERSION_3
+-- START DISKCACHE
+D:\code\.metadata\.plugins\org.eclipse.core.resources\.projects\PythonKernel\com.python.pydev.analysis\v1_indexcache
+.v1_indexcache
+tsTclnt|0|D:\code\pythons\PythonKernel\src\tsTclnt.py
+tsTserv|0|D:\code\pythons\PythonKernel\src\tsTserv.py
+-- END DISKCACHE
+-- START DICTIONARY
+2
+2=tsTclnt
+1=tsTserv
+-- END DICTIONARY
+-- START TREE 1
+6
+add|3|ADDR!11@addr!11@ADDR!19@
+buf|2|BUFSIZ!19@BUFSIZ!11@
+dat|2|data!11@data!19@
+hos|2|HOST!19@HOST!11@
+por|2|PORT!19@PORT!11@
+tcp|3|tcpCliSock!11@tcpCliSock!19@tcpSerSock!11@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

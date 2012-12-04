@@ -1,0 +1,4 @@
+class ABS(object):
+    print "hello ABS"
+    
+a = ABS()
