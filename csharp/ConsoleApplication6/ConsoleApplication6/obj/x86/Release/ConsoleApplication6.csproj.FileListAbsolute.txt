@@ -1,4 +1,0 @@
-D:\code\csharp\ConsoleApplication6\ConsoleApplication6\bin\Release\ConsoleApplication6.exe
-D:\code\csharp\ConsoleApplication6\ConsoleApplication6\bin\Release\ConsoleApplication6.pdb
-D:\code\csharp\ConsoleApplication6\ConsoleApplication6\obj\x86\Release\ConsoleApplication6.exe
-D:\code\csharp\ConsoleApplication6\ConsoleApplication6\obj\x86\Release\ConsoleApplication6.pdb

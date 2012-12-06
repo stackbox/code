@@ -1,5 +1,0 @@
-D:\code\csharp\Ch09ClassLib\Ch09ClassLib\bin\Debug\Ch09ClassLib.dll
-D:\code\csharp\Ch09ClassLib\Ch09ClassLib\bin\Debug\Ch09ClassLib.pdb
-D:\code\csharp\Ch09ClassLib\Ch09ClassLib\obj\Debug\ResolveAssemblyReference.cache
-D:\code\csharp\Ch09ClassLib\Ch09ClassLib\obj\Debug\Ch09ClassLib.dll
-D:\code\csharp\Ch09ClassLib\Ch09ClassLib\obj\Debug\Ch09ClassLib.pdb

@@ -1,7 +1,0 @@
-D:\code\csharp\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe
-D:\code\csharp\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.pdb
-D:\code\csharp\ConsoleApplication3\ConsoleApplication3\bin\Debug\Ch09ClassLib.dll
-D:\code\csharp\ConsoleApplication3\ConsoleApplication3\bin\Debug\Ch09ClassLib.pdb
-D:\code\csharp\ConsoleApplication3\ConsoleApplication3\obj\x86\Debug\ResolveAssemblyReference.cache
-D:\code\csharp\ConsoleApplication3\ConsoleApplication3\obj\x86\Debug\ConsoleApplication3.exe
-D:\code\csharp\ConsoleApplication3\ConsoleApplication3\obj\x86\Debug\ConsoleApplication3.pdb

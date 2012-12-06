@@ -1,1 +1,0 @@
-D:\code\csharp\game\Collision\Collision\CollisionContent\obj\x86\Debug\CollisionContent.contentprojResolveAssemblyReference.cache

@@ -1,5 +1,0 @@
-D:\code\csharp\Mandelbrot\Mandelbrot\obj\x86\Debug\ResolveAssemblyReference.cache
-D:\code\csharp\Mandelbrot\Mandelbrot\bin\Debug\Mandelbrot.exe
-D:\code\csharp\Mandelbrot\Mandelbrot\bin\Debug\Mandelbrot.pdb
-D:\code\csharp\Mandelbrot\Mandelbrot\obj\x86\Debug\Mandelbrot.exe
-D:\code\csharp\Mandelbrot\Mandelbrot\obj\x86\Debug\Mandelbrot.pdb

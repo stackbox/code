@@ -1,9 +1,0 @@
-D:\code\csharp\ButtonTest\ButtonTest\bin\Debug\ButtonTest.exe
-D:\code\csharp\ButtonTest\ButtonTest\bin\Debug\ButtonTest.pdb
-D:\code\csharp\ButtonTest\ButtonTest\obj\x86\Debug\ResolveAssemblyReference.cache
-D:\code\csharp\ButtonTest\ButtonTest\obj\x86\Debug\ButtonTest.Form1.resources
-D:\code\csharp\ButtonTest\ButtonTest\obj\x86\Debug\ButtonTest.Properties.Resources.resources
-D:\code\csharp\ButtonTest\ButtonTest\obj\x86\Debug\GenerateResource.read.1.tlog
-D:\code\csharp\ButtonTest\ButtonTest\obj\x86\Debug\GenerateResource.write.1.tlog
-D:\code\csharp\ButtonTest\ButtonTest\obj\x86\Debug\ButtonTest.exe
-D:\code\csharp\ButtonTest\ButtonTest\obj\x86\Debug\ButtonTest.pdb

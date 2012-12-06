@@ -1,5 +1,0 @@
-D:\code\csharp\Ch12Ex02\Ch12Ex02\obj\x86\Debug\ResolveAssemblyReference.cache
-D:\code\csharp\Ch12Ex02\Ch12Ex02\bin\Debug\Ch12Ex02.exe
-D:\code\csharp\Ch12Ex02\Ch12Ex02\bin\Debug\Ch12Ex02.pdb
-D:\code\csharp\Ch12Ex02\Ch12Ex02\obj\x86\Debug\Ch12Ex02.exe
-D:\code\csharp\Ch12Ex02\Ch12Ex02\obj\x86\Debug\Ch12Ex02.pdb

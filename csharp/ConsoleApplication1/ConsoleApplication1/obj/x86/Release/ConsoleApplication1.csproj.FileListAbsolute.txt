@@ -1,5 +1,0 @@
-D:\code\csharp\ConsoleApplication1\ConsoleApplication1\bin\Release\ConsoleApplication1.exe
-D:\code\csharp\ConsoleApplication1\ConsoleApplication1\bin\Release\ConsoleApplication1.pdb
-D:\code\csharp\ConsoleApplication1\ConsoleApplication1\obj\x86\Release\ResolveAssemblyReference.cache
-D:\code\csharp\ConsoleApplication1\ConsoleApplication1\obj\x86\Release\ConsoleApplication1.exe
-D:\code\csharp\ConsoleApplication1\ConsoleApplication1\obj\x86\Release\ConsoleApplication1.pdb
