@@ -1,5 +1,0 @@
-class ABS(object):
-    def fun(self):
-        print "hello ab"
-    
-a = ABS()

@@ -26,7 +26,7 @@ if has("vms")
 else
   set backup		" keep a backup file
 endif
-set history=50		" keep 50 lines of command line history
+set history=150		" keep 50 lines of command line history
 set ruler		" show the cursor position all the time
 set showcmd		" display incomplete commands
 set incsearch		" do incremental searching
@@ -107,17 +107,31 @@ let $LANG='en'
 
 if has('gui_running')
 	colorscheme baycomb
-	set lines=30 columns=105
+	set lines=48 columns=140
 else
 	colorscheme default 
 	set lines=30 columns=100
 endif
-winpos 240 80
+winpos 25 5
 
 set clipboard=unnamed
 set tabstop=4
 cd d:\code\
 set nobackup
+
+"TagList
+let Tlist_Show_One_File=1
+let TList_Exit_OnlyWindow=1
+"tags 自动获取当前目录tags，若没有，一直向上目录递归
+set tags=tags
+set autochdir
+"也可以使用绝对路径
+"set tags=d:\openshift\tags"  
+"WinManager
+"let Tlist_Auto_Open = 1
+let g:winManagerWindowLayout='FileExplorer|TagList'
+nmap wm :WMToggle<cr>
+
 func! CompileGcc()
     exec "w"
     let compilecmd = "!gcc -Wall % -o %< -mms-bitfields -IC:/GTK/include/gtk-2.0 -IC:/GTK/lib/gtk-2.0/include -IC:/GTK/include/atk-1.0 -IC:/GTK/include/cairo -IC:/GTK/include/pango-1.0 -IC:/GTK/include/glib-2.0 -IC:/GTK/lib/glib-2.0/include -IC:/GTK/include/freetype2 -IC:/GTK/include  -Wl,-luuid -LC:/GTK/lib -lgtk-win32-2.0 -lgdk-win32-2.0 -limm32 -lshell32 -lole32 -latk-1.0 -lgdk_pixbuf-2.0 -lpangocairo-1.0 -lcairo -lpangoft2-1.0 -lpangowin32-1.0 -lgdi32 -lfreetype -lz -lfontconfig -lpango-1.0 -lm -lgobject-2.0 -lgmodule-2.0 -lglib-2.0 -lintl"
