@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="24" version="2.0">
+<workbench progressCount="45" version="2.0">
 <workbenchAdvisor/>
-<window height="732" maximized="true" width="1024" x="2" y="26">
+<window height="732" width="1024" x="233" y="34">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -19,6 +19,7 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="198" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.browser.editor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.python.pydev.editor.PythonEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -31,17 +32,22 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
+<part id="2"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.python.pydev.editor.PythonEditor" name="tsTserv.py" partName="tsTserv" path="D:/code/pythons/PythonKernel/src/tsTserv.py" title="tsTserv" tooltip="PythonKernel/src/tsTserv.py" workbook="DefaultEditorWorkbook">
+<editor id="org.python.pydev.editor.PythonEditor" name="tsTserv.py" partName="tsTserv" path="D:/code/pythons/PythonKernel/src/tsTserv.py" title="tsTserv" tooltip="PythonKernel/src/tsTserv.py" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PythonKernel/src/tsTserv.py"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="530" selectionTopPixel="0"/>
 </editor>
 <editor id="org.python.pydev.editor.PythonEditor" name="tsTclnt.py" partName="tsTclnt" path="D:/code/pythons/PythonKernel/src/tsTclnt.py" title="tsTclnt" tooltip="PythonKernel/src/tsTclnt.py" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PythonKernel/src/tsTclnt.py"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="218" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.python.pydev.editor.PythonEditor" name="test.py" partName="test" path="D:/code/pythons/PythonKernel/src/test.py" title="test" tooltip="PythonKernel/src/test.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PythonKernel/src/test.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="223" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -53,7 +59,7 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Errors (1 item)"/>
+<category IMemento.internal.id="Warnings (1 item)"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -75,7 +81,7 @@
 <viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0">
 <expanded IMemento.internal.id="D:/code/pythons/PythonKernel"/>
 <expanded IMemento.internal.id="D:/code/pythons/PythonKernel/src"/>
-<selected IMemento.internal.id="D:/code/pythons/PythonKernel/src/tsTserv.py"/>
+<selected IMemento.internal.id="D:/code/pythons/PythonKernel/src/test.py"/>
 </viewState>
 </view>
 </views>
@@ -268,6 +274,9 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/PythonKernel/src/ch16.py"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/PythonKernel/src/tsTserv.py"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/PythonKernel/src/tsTclnt.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/PythonKernel/src/tsTclnt.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/PythonKernel/src/test.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/PythonKernel/src/test.py"/>
 </editors>
 <item historyLabel="ch16" index="0">
 <position info="not_deleted" x="19" y="0"/>
@@ -347,8 +356,23 @@
 <item historyLabel="tsTclnt" index="2">
 <position info="not_deleted" x="218" y="0"/>
 </item>
-<item active="true" historyLabel="tsTserv" index="1">
+<item historyLabel="tsTserv" index="1">
 <position info="not_deleted" x="419" y="0"/>
+</item>
+<item historyLabel="tsTclnt" index="3">
+<position info="not_deleted" x="218" y="0"/>
+</item>
+<item historyLabel="test" index="4">
+<position info="not_deleted" x="268" y="0"/>
+</item>
+<item historyLabel="tsTclnt" index="3">
+<position info="not_deleted" x="218" y="0"/>
+</item>
+<item historyLabel="tsTclnt" index="3">
+<position info="not_deleted" x="218" y="0"/>
+</item>
+<item active="true" historyLabel="test" index="5">
+<position info="not_deleted" x="223" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -368,6 +392,9 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="test.py" tooltip="PythonKernel/src/test.py">
+<persistable path="/PythonKernel/src/test.py"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="tsTclnt.py" tooltip="PythonKernel/src/tsTclnt.py">
 <persistable path="/PythonKernel/src/tsTclnt.py"/>
 </file>
