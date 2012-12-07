@@ -1,1 +1,4 @@
 .metadata
+*.exe
+*.pyc
+*.swp
