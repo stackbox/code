@@ -101,13 +101,14 @@ set autoindent
 set cindent
 set shiftwidth=4
 set guifont=Courier_new:h11:b:cDEFAULT
-"取消工具栏
+"取消工具栏 和 菜单栏
 set guioptions-=T
+set guioptions-=m
 let $LANG='en'
 
 if has('gui_running')
 	colorscheme baycomb
-	set lines=48 columns=140
+	set lines=33 columns=110
 else
 	colorscheme default 
 	set lines=30 columns=100
@@ -119,18 +120,32 @@ set tabstop=4
 cd d:\code\
 set nobackup
 
+"MiniBufExplorer
+let g:miniBufExplMapWindowNavVim = 1 
+let g:miniBufExplMapWindowNavArrows = 1 
+let g:miniBufExplMapCTabSwitchBufs = 1 
+let g:miniBufExplModSelTarget = 1
+
 "TagList
 let Tlist_Show_One_File=1
 let TList_Exit_OnlyWindow=1
 "tags 自动获取当前目录tags，若没有，一直向上目录递归
 set tags=tags
 set autochdir
+
 "也可以使用绝对路径
 "set tags=d:\openshift\tags"  
-"WinManager
+
+let TList_WinWdith = 20
+let TList_WinHeight = 40
+nmap tl :Tlist<cr>
 "let Tlist_Auto_Open = 1
-let g:winManagerWindowLayout='FileExplorer|TagList'
+
+"WinMangager
+let g:winManagerWindowLayout='FileExplorer'
 nmap wm :WMToggle<cr>
+
+
 
 func! CompileGcc()
     exec "w"
