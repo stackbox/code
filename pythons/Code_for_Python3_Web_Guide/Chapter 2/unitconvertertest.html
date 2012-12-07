@@ -1,0 +1,17 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<script type="text/javascript" src="static/jquery-1.4.2.js" ></script>
+<script type="text/javascript" src="static/jquery-ui-1.8.4.custom.min.js" ></script>
+<script type="text/javascript" src="unitconverter2.js"></script>
+</head>
+<body>
+<div id="first"></div>
+<div id="last"></div>
+<script type="text/javascript">
+$("#first").unitconverter();
+$.extend($.fn.unitconverter.conversion_map,{'cubic feet_litres':1.0/28.3168466});
+$("#last").unitconverter();
+</script>
+</body>
+</html>

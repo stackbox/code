@@ -1,0 +1,18 @@
+Unbound Snake v0.1
+Carlos Alberto Ramos Lopez, December 2011
+email: UnboundDarkness@gmail.com
+
+Description
+----------------------------------------------------
+Unbound Snake is a game written in Python/PyGame licensed under GPL.
+
+To run it, enter the source code directory and execute:
+python UnboundSnake.py
+
+Controls:
+	Left    - Left Arrow
+	Right   - Right Arrow
+	Up      - Up Arrow
+	Down    - Down Arrow
+	Exit    - Escape
+	Restart - F5 (When Game Over)

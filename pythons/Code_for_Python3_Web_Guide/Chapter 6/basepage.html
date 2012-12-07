@@ -1,0 +1,53 @@
+<html>
+	<head>
+		<title>Wiki</title>
+		<script 
+			src=
+"http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"
+			type="text/javascript">
+		</script>
+		<script 
+			src=
+"http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.3/jquery-ui.min.js" 
+			type="text/javascript">
+		</script>
+		<link rel="stylesheet"
+			href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.3/themes/smoothness/jquery-ui.css" 
+			type="text/css" media="all" />
+		<link rel="stylesheet" href="/wiki.css" 
+			type="text/css" media="all" />
+	</head>
+	<body>
+		<div id="navigation">
+			<div class="navitem">
+				<a href="./">Wiki Home</a>
+			</div>
+			<div class="navitem">
+				<span class="label">Search topic</span>
+				<form id="topicsearch">
+					<input type="text" >
+					<button type="submit" >Search</button>
+				</form>
+			</div>
+			<div class="navitem">
+				<span class="label">Search word</span>
+				<form id="wordsearch">
+					<input type="text" >
+					<button type="submit" >Search</button>
+				</form>
+			</div>
+			<div class="navitem">
+				<span class="label">Search tag</span>
+				<form id="tagsearch">
+					<input type="text" >
+					<button type="submit" >Search</button>
+				</form>
+			</div>
+			<div class="navitem">
+				<p id="tagcloud">Tag cloud</p>
+			</div>
+		</div>
+		<div id="content">%s</div>
+		<script src="/wikiweb.js" type="text/javascript"></script>
+	</body>
+</html>

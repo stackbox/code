@@ -1,0 +1,14 @@
+<button class="delete">delete</button>
+<script>
+$("button.delete").click(function(){
+	var url = $("form").last().attr('action')+'/delete';
+	$("tr.selected").each(function(i){
+		var id=$(this).attr('id');
+		$.get(url,{'id':id});
+	});
+	// refresh with the same sort/pattern values but remove cache to show deletion
+	$("input[name=cacheid]").remove();
+	$("button[name=first]").click();
+	false;
+}).button({icons: { primary: "ui-icon-trash" },text: false});
+</script>

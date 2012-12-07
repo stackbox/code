@@ -1,0 +1,27 @@
+input[type="text"] {
+	font-size:1.1em;
+	margin:0;
+	border:0;
+	padding:0;}
+
+.left, .right { width: 8em; }
+.middle { width: 20em;}
+
+form { float:left; 
+	  border:0; margin:0; padding:0; 
+	  clear:both; 
+	  width:100%; }
+form.logoff{ float:right;
+			 border:0; margin:0; padding:0; 
+			 clear:both; width:auto; 
+			 font-size:0.5em;}
+
+#items { float:left; clear:both; width:100%; }
+
+.header { width:100%; }
+.taskheader, .header, #content{ float:left; clear:both;}
+.taskheader div { float:left; font-size:1.1em; font-weight:bold;}
+.logoff-button, .done-button, .del-button, .add-button { float:right;}
+.done-button, .add-button, .del-button { width: 6em; height: 1.1em; }
+
+#content { min-width:900px;}

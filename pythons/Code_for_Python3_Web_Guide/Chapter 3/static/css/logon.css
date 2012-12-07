@@ -1,0 +1,6 @@
+form.login { float:left; width:12em;}
+form.login label { display:block; clear:both; padding:3px;}
+form.login input { float:left; width:8em;}
+form.login button{ float: left; clear:both; }
+#content {float:left; background: #fbfbff; border:2px solid #dfeffc; margin:10px; padding:2em 2em 2em 2em; min-width:0;}
+

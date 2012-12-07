@@ -1,0 +1,22 @@
+#wikihome {
+	width:90%;
+}
+
+#tagcloud span { margin:0 1px 0 1px; }
+.weight0 { font-size:60%; }
+.weight1 { font-size:70%; }
+.weight2 { font-size:80%; }
+.weight3 { font-size:90%; }
+.weight4 { font-size:100%; }
+
+#imagelist { overflow:auto;}
+
+
+#navigation { float:left;}
+#content { float:right; width:70%;}
+
+#imagedialog { width:600px; height:600px; }
+#imagelist div { float:left;  width:250px; }
+
+.selectable-image, .wikiimage { max-width:340px; }
+

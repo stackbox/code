@@ -1,0 +1,11 @@
+<button id="showmap">Map</button>
+<script>
+$("#showmap").click(function(){
+	var url = "http://maps.google.com/maps?f=q&q="
+	url +=$("input[name=address]").val()+',';
+	url +=$("input[name=city]").val()+',';
+	url +=$("input[name=country]").val();
+	window.open(url);
+});
+</script>
+

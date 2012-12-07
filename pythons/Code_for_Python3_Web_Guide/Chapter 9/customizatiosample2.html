@@ -1,0 +1,7 @@
+<script>
+var button = $('<button class="urlopen" style="float:left;font-size:6px;">...</button>');
+$("input[type=text]").after(button);
+$("button.urlopen").click(function(){
+	window.open($(this).prev().val());
+}).button({icons: { primary: "ui-icon-extlink" },text: false});
+</script>

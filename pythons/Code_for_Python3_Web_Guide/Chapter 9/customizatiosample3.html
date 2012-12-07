@@ -1,0 +1,8 @@
+<script>
+var re = new RegExp("^\\s*\\+");
+$("td:nth-child(4)").each(function(i){
+	if($(this).text().match(re)){
+		$(this).css({'font-weight':'bold'})
+	};
+});
+</script>
